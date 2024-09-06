@@ -172,7 +172,7 @@ int main(){
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
 
-    printf("A1 São Paulo - SP %s", A1_Sao_Paulo_SP);
+    printf("A1 São Paulo - SP %s\n", A1_Sao_Paulo_SP);
     printf("digite o nº de pontos turísticos: %d", numero_de_pontos_turisticos_A1);
     scanf("%d", &numero_de_pontos_turisticos_A1);
     
