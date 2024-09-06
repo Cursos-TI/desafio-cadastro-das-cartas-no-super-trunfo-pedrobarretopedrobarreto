@@ -133,6 +133,7 @@ int main(){
     double area_G3;
     double area_G4;
     double area_H1;
+    double area_H2;
     double area_H3;
     double area_H4;
     double PIB_A1;
