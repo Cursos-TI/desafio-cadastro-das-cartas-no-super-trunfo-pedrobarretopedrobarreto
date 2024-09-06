@@ -21,9 +21,9 @@ int main(){
     char C3_Canoas_RS[70];
     char C4_Pelotas_RS[70];
     char D1_Rio_de_Janeiro_RJ[70];
-    char D2_Sao_Gonçalo_RJ[70];
+    char D2_Sao_Goncalo_RJ[70];
     char D3_Duque_de_Caxias_RJ[70];
-    char D4_Nova_Iguaçu_RJ[70];
+    char D4_Nova_Iguacu_RJ[70];
     char E1_Curitiba_PR[70];
     char E2_Londrina_PR[70];
     char E3_Maringa_PR[70];
@@ -39,7 +39,7 @@ int main(){
     char H1_Salvador_BA[70];
     char H2_Feira_de_Santana_BA[70];
     char H3_Vitoria_da_Conquista_BA[70];
-    char H4_Camaçari_BA[70];
+    char H4_Camacari_BA[70];
     int numero_de_pontos_turisticos_A1;
     int numero_de_pontos_turisticos_A2;
     int numero_de_pontos_turisticos_A3;
