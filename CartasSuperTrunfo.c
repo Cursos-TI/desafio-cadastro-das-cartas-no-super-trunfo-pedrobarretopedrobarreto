@@ -8,6 +8,17 @@
 int main(){
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
+    // Meu comentário: nessa parte em baixo cadastrei cada variável que precisaria utilizar para os nomes
+    // das cidades e atributos de cada cidade. Para isso precisa "alocar" espaço para cada informação que
+    // fosse digitada pelo usuário para salvar em scanf e assim precisaria ter um espaço(que no caso é uma variável)
+    // para armazenar as informações inseridas. Cada espaço desse precisa ser registrado com algum nome
+    // que faça sentido para o que ele está armazenando, ficando assim fácil identificação. Para isso registrei
+    // em cada cidade um código e em cada atributo o código da cidade que ele representa. Nas variáveis dos atributos 
+    // e até mesmo das cidades poderia ter usada a mesma linha para por mais de uma variável, porém para execução
+    // e organização do projeto achei melhor fazer um por linha. Essa primeira parte é o momento de declaração das variáveis.
+    // Como seria necessário para os atributos salvar informações com scanf não deveria inicializar as váriaveis dos mesmos.
+    // Também não identifiquei necessidade de incializar as variáveis dos nomes das cidades.
+
     char A1_Sao_Paulo_SP[70]; 
     char A2_Campinas_SP[70];
     char A3_Ribeirao_Preto_SP[70];
@@ -172,6 +183,11 @@ int main(){
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    // Meu comentário: prinf para expressar o nome da cidade e direcionar o que é para o usuário fazer.
+    // Coloquei em seguida do printf que está indicando o nome da cidade a variável que representaria a própria
+    // cidade mas não precisava uma vez que não utilizou o variável.
+    // Scanf para guardar as informações do usuário. \n para pular linha. A formatação %d que faz conexão com
+    // o dado int para fazer conexão com as variáveis dos atributos.
 
     printf("A1 São Paulo - SP\n", A1_Sao_Paulo_SP);
     printf("Digite o nº de pontos turísticos:\n", numero_de_pontos_turisticos_A1);
@@ -497,6 +513,7 @@ int main(){
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    // Meu comentário: printf para expressar as cidades e seus atributos salvos pelo scanf.
 
     printf("A1 São Paulo - SP\n", A1_Sao_Paulo_SP);
     printf("Nº de pontos turísticos: %d\n", numero_de_pontos_turisticos_A1);
