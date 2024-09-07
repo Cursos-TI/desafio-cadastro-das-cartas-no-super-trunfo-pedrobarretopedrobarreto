@@ -501,7 +501,7 @@ int main(){
     printf("A1 São Paulo - SP\n", A1_Sao_Paulo_SP);
     printf("Nº de pontos turísticos: %d\n", numero_de_pontos_turisticos_A1);
     printf("Quantidade de população: %d\n", populacao_A1);
-    printf("Area: %d n", area_A1);
+    printf("Area: %d\n", area_A1);
     printf("PIB: %d\n", PIB_A1);
 
     printf("A2 Campinas - SP\n", A2_Campinas_SP);
