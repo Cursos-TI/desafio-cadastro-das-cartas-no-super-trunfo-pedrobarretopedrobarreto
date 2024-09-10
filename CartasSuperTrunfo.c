@@ -602,7 +602,7 @@ int main(){
     printf("PIB per capita: %f\n", pib_percapita_A2);
 
     printf("A3 Ribeirão Preto - SP\n", A3_Ribeirao_Preto_SP);
-    printf("Nº de pontos turísticos: %d", numero_de_pontos_turisticos_A3);
+    printf("Nº de pontos turísticos: %d\n", numero_de_pontos_turisticos_A3);
     printf("Quantidade de população: %d\n", populacao_A3);
     printf("Area: %d\n", area_A3);
     printf("PIB: %d\n", PIB_A3);
@@ -616,7 +616,7 @@ int main(){
     printf("Quantidade de população: %d\n", populacao_A4);
     printf("Area: %d\n", area_A4);
     printf("PIB: %d\n", PIB_A4);
-    densidade_populacional_A1 = (double) populacao_A4 / area_A4;
+    densidade_populacional_A4 = (double) populacao_A4 / area_A4;
     printf("Densidade Populacional: %f\n", densidade_populacional_A4);
     pib_percapita_A4 = (double) PIB_A4 / populacao_A4;
     printf("PIB per capita: %f\n", pib_percapita_A4);
