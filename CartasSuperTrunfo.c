@@ -20,6 +20,8 @@ int main(){
     // e organização do projeto achei melhor fazer um por linha. Essa primeira parte é o momento de declaração das variáveis.
     // Como seria necessário para os atributos salvar informações com scanf não deveria inicializar as váriaveis dos mesmos.
     // Também não identifiquei necessidade de incializar as variáveis dos nomes das cidades.
+    // Para o nível intermediário criei variáveis para o atributos densidade populacional e PIB per capita
+    // com tipo de dados double para não ter erro em relação a casas decimais.
 
     char A1_Sao_Paulo_SP[70]; 
     char A2_Campinas_SP[70];
@@ -580,6 +582,10 @@ int main(){
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     // Meu comentário: printf para expressar as cidades e seus atributos salvos pelo scanf.
+    // Para o nível intermediário eu fiz as operações aritméticas entre população e área para 
+    // obter a densidade populacional e entre PIB e população para obter PIB per capital. Para ambos
+    // eu forcei a conversão(casting) de tipo de dado para double para não ter erro de cálculo. 
+    // printf sobre as variáveis que quis obter os resultados da operações.
 
     printf("A1 São Paulo - SP\n", A1_Sao_Paulo_SP);
     printf("Nº de pontos turísticos: %d\n", numero_de_pontos_turisticos_A1);
